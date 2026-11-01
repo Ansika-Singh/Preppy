@@ -1,0 +1,23 @@
+# Engineering Physics — SAMPLE DATA (Verified Course Notes)
+
+Author: Department of Applied Physics
+Document: Core Lecture Notes & Formula Reference
+
+--- Page 1: Dynamics and Newton's Laws of Motion ---
+Newton's First Law of Motion states that an object remains at rest or in uniform rectilinear motion unless acted upon by a non-zero resultant net external force. An inertial frame of reference is one in which Newton's first law holds true without the introduction of fictitious inertial forces.
+
+Newton's Second Law of Motion establishes the quantitative link between dynamics and kinematics: the net force acting on a body is equal to the time rate of change of its linear momentum. For a constant mass system, this reduces to the fundamental vector equation F_net = m*a. Consequently, acceleration is directly proportional to the applied net force and inversely proportional to the mass of the body. If the net force acting on a constant mass is doubled, the resulting acceleration is doubled instantaneously.
+
+Newton's Third Law states that whenever body A exerts a force on body B, body B simultaneously exerts an equal and opposite force on body A (F_AB = -F_BA). These two forces act on different bodies and therefore never cancel each other out in single-body equilibrium calculations.
+
+--- Page 2: Work and the Work-Energy Theorem ---
+Work done by a constant force F over a displacement d is defined as the scalar dot product W = F * d * cos(theta), where theta is the angle between the force and displacement vectors. Kinetic friction acts opposite to the direction of relative displacement; hence the work done by kinetic friction is always negative, dissipating mechanical energy into thermal energy.
+
+The Work-Energy Theorem states that the net work done by all forces (both conservative and non-conservative) on a particle equals the net change in the particle's kinetic energy: W_net = Delta(KE) = (1/2)*m*v_final^2 - (1/2)*m*v_initial^2. If net work is positive, kinetic energy increases; if net work is negative, kinetic energy decreases.
+
+--- Page 3: Simple Harmonic Motion ---
+A simple harmonic oscillator obeys Hooke's Law: the restoring force is directly proportional to displacement from equilibrium and directed opposite to the displacement: F = -k*x.
+The equation of motion is given by m*(d^2x/dt^2) + k*x = 0, yielding angular frequency omega = sqrt(k/m) and period T = 2*pi*sqrt(m/k).
+In simple harmonic motion, total mechanical energy is conserved: E_total = (1/2)*k*A^2 = (1/2)*m*v^2 + (1/2)*k*x^2.
+At the extreme displacement points (x = +/- A), velocity is zero and acceleration is at its maximum magnitude. At the equilibrium midpoint (x = 0), acceleration is zero and velocity is at its maximum magnitude.
+

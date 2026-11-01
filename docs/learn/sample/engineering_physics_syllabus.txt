@@ -1,0 +1,27 @@
+# Engineering Physics — SAMPLE DATA (Syllabus)
+
+Course: PHY 101 — Principles of Classical Mechanics and Oscillations
+Scope: Introductory Undergraduate Engineering Physics
+
+1. Kinematics and Reference Frames
+   - Position, velocity, and instantaneous acceleration in one and two dimensions
+   - Coordinate transformations and inertial reference frames
+
+2. Dynamics and Newton's Laws of Motion
+   - Newton's First Law: Law of Inertia
+   - Newton's Second Law: Fundamental equation F = m*a
+   - Newton's Third Law: Action-reaction pairs and contact forces
+   - Free body diagrams and frictional forces
+
+3. Work, Energy, and Power
+   - Definition of scalar work done by constant and variable forces
+   - The Work-Energy Theorem: W_net = delta(KE)
+   - Conservative vs. non-conservative forces and potential energy
+   - Law of Conservation of Mechanical Energy
+
+4. Simple Harmonic Motion (SHM)
+   - Hooke's Law and the ideal linear restoring force F = -k*x
+   - Differential equation of simple harmonic motion: d^2x/dt^2 + omega^2 * x = 0
+   - Period, frequency, and amplitude of a simple pendulum and mass-spring system
+   - Energy exchange between kinetic and elastic potential energy in SHM
+

@@ -1,0 +1,82 @@
+{
+  "description": "Pre-authored sample questions for offline evaluation and zero-provider demo runs",
+  "questions": [
+    {
+      "concept_name": "Newton's Second Law",
+      "stem": "What happens to the acceleration of an object when the net applied force doubles while mass remains constant?",
+      "type": "mcq",
+      "difficulty": 2,
+      "options": [
+        "Acceleration doubles instantaneously",
+        "Acceleration remains unchanged",
+        "Acceleration is reduced by half",
+        "Acceleration is quadrupled"
+      ],
+      "correct_answer": "Acceleration doubles instantaneously",
+      "distractor_map": {
+        "Acceleration remains unchanged": "Belief that acceleration depends strictly on mass alone",
+        "Acceleration is reduced by half": "Inverting the direct relationship between force and acceleration",
+        "Acceleration is quadrupled": "Confusing linear force proportionality with quadratic velocity scaling"
+      },
+      "source_quote": "If the net force acting on a constant mass is doubled, the resulting acceleration is doubled instantaneously."
+    },
+    {
+      "concept_name": "Newton's Third Law",
+      "stem": "A heavy horse pulls a wooden cart. By Newton's Third Law, the cart pulls back on the horse with equal force. Why does the cart still move forward?",
+      "type": "mcq",
+      "difficulty": 2,
+      "options": [
+        "The forward static friction force on the horse's hooves exceeds the cart's rolling resistance",
+        "The horse's pulling force is slightly greater than the cart's reaction force",
+        "Newton's third law applies only to objects at rest, not moving systems",
+        "The reaction force acts after a small time delay allowing forward motion"
+      ],
+      "correct_answer": "The forward static friction force on the horse's hooves exceeds the cart's rolling resistance",
+      "distractor_map": {
+        "The horse's pulling force is slightly greater than the cart's reaction force": "Belief that action must exceed reaction for acceleration to occur",
+        "Newton's third law applies only to objects at rest, not moving systems": "Belief that Newton's third law fails in dynamic motion",
+        "The reaction force acts after a small time delay allowing forward motion": "Assuming a temporal lag in action-reaction pairs"
+      },
+      "source_quote": "These two forces act on different bodies and therefore never cancel each other out in single-body equilibrium calculations."
+    },
+    {
+      "concept_name": "Work-Energy Theorem",
+      "stem": "A box slides across a rough horizontal concrete floor and comes to rest. What is the sign of the work done by kinetic friction on the box?",
+      "type": "mcq",
+      "difficulty": 1,
+      "options": [
+        "Negative work, because friction acts opposite to the direction of displacement",
+        "Positive work, because friction transfers kinetic energy into the floor",
+        "Zero work, because friction is a non-conservative contact force",
+        "Positive work, because the total thermal energy of the system increases"
+      ],
+      "correct_answer": "Negative work, because friction acts opposite to the direction of displacement",
+      "distractor_map": {
+        "Positive work, because friction transfers kinetic energy into the floor": "Confusing energy dissipation with positive mechanical work",
+        "Zero work, because friction is a non-conservative contact force": "Belief that non-conservative forces do zero mechanical work",
+        "Positive work, because the total thermal energy of the system increases": "Confusing thermodynamic heat generation with mechanical work sign"
+      },
+      "source_quote": "Kinetic friction acts opposite to the direction of relative displacement; hence the work done by kinetic friction is always negative"
+    },
+    {
+      "concept_name": "Simple Harmonic Motion",
+      "stem": "In an ideal mass-spring simple harmonic oscillator, at what position is the magnitude of acceleration at its maximum?",
+      "type": "mcq",
+      "difficulty": 2,
+      "options": [
+        "At the maximum displacement extreme points (x = +A and x = -A)",
+        "At the equilibrium midpoint (x = 0)",
+        "Halfway between equilibrium and maximum displacement (x = A/2)",
+        "Acceleration is constant throughout the entire oscillation cycle"
+      ],
+      "correct_answer": "At the maximum displacement extreme points (x = +A and x = -A)",
+      "distractor_map": {
+        "At the equilibrium midpoint (x = 0)": "Confusing maximum velocity with maximum acceleration",
+        "Halfway between equilibrium and maximum displacement (x = A/2)": "Assuming acceleration peaks at intermediate displacement",
+        "Acceleration is constant throughout the entire oscillation cycle": "Believing SHM motion has uniform acceleration like free fall"
+      },
+      "source_quote": "At the extreme displacement points (x = +/- A), velocity is zero and acceleration is at its maximum magnitude."
+    }
+  ]
+}
+
